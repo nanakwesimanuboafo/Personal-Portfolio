@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between
+}
+
+
+
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
