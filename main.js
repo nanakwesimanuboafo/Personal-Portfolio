@@ -1,6 +1,6 @@
-const hamburger =  document.getElementById('hamburger');
-const navItem =  document.getElementById('nav-item');
+const tooglebutton =  document.getElementsByClassName('toogle-button')[0];
+const navlist = document.getElementsByClassName('nav-list')[0];
 
-hamburger.addEventListener('click', () => {
-  navItem.classList.toggle('show');
-});
+tooglebutton.addEventListener('click', ()=> {
+    navlist.classList.toggle('active')
+})
