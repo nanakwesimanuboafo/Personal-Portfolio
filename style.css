@@ -4,13 +4,15 @@
     padding: 0;
 }
 
-
+header{
+  background: -webkit-linear-gradient(127deg, rgb(99, 64, 240), rgb(240, 35, 195));;
+}
 
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1C77C3;
+
 }
 
 
@@ -40,8 +42,9 @@
     color:white;
 }
 
-.nav-list li:hover{
- 
+.nav-list li a:hover{
+    border-bottom: solid 1px white;
+    
 }
 
 .toogle-button{
@@ -72,12 +75,23 @@ main{
 .left{
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
-    color: #1C77C3;
-    padding-left: 2rem;
+    color: white;
+    margin-left: 2rem;
+}
+
+
+.left button{
+    border-radius: 5px;
+    border: solid white 0.2rem;
+    background-color: transparent;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 1.5rem;
 }
 
 .right img{
-    height: 50vh;
+    height: 70vh;
 }
 
 
@@ -118,6 +132,15 @@ main{
 
     main{
         flex-direction: column;
+    }
+
+    .left{
+        margin-left: 5rem;
+    }
+
+    .right img{
+        margin-top: 1.5rem;
+        height: 50vh;
     }
 
 
