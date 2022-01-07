@@ -10,7 +10,7 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <header>
+    <header id="home">
     <nav class="navbar">
         <div class="logo">
             <P>MB</P>
@@ -22,7 +22,7 @@
         </a>
         <div class="nav-list">
             <ul>
-                <li><a href="">HOME</a></li>
+                <li><a href="#home">HOME</a></li>
                 <li><a href="#skills">SKILLS</a></li>
                 <li><a href="#contact">CONTACT</a></li>    
             </ul>
@@ -89,9 +89,9 @@
     <footer id='contact'>
         <h2>CONTACT</h2>
         <section class="flex">
-                <form >
+                <form>
                 <label for="name">Name</label><br>
-                <input type="text" name="name" id="name" class="textbox" >
+                <input type="text" name="name" id="name" class="textbox" required >
                 <br>
 
                 <label for="email">E-mail</label><br>
@@ -99,7 +99,7 @@
                 <br>
 
                 <label for="text">Type your Message</label><br>
-                <textarea id="text" name="messsage" rows="4" cols="50"></textarea>
+                <textarea id="text" name="messsage" rows="4" cols="50" required></textarea>
                 <br>
 
                 
@@ -109,7 +109,11 @@
             </form>
             <section class="side">
                 <a href="https://twitter.com/manu_boafo?t=pjGQFNzCwuCBSdzNSgDNjA&s=09"><i class="fab fa-twitter"></i></a>
-                <a href="https://github.com/nanakwesimanuboafo"><i class="fab fa-github"></i></a>
+                <a href="https://github.com/nanakwesimanuboafo"><i class="fab fa-github"></i></a><br>
+                
+                <div class="number"><i class="fas fa-phone"><span  class="number">:+233205453142</span></i></div>
+                <div class="number"><i class="fas fa-at">:boafomanu5@gmail.com</i></div>
+
             </section>
 
         </section>
