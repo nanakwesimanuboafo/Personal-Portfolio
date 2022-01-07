@@ -257,6 +257,11 @@ footer h2{
   border-radius: 5px;
 }
 
+#contact{
+  padding-top: 1rem;
+}
+
+
 
 form{
     margin-left: 4rem;
@@ -290,6 +295,13 @@ form{
     header{
       width: 100%;
     }
+
+    .logo{
+
+      margin: 0.5rem 2rem;
+    
+  }
+
     .toogle-button{
         display: flex;
        
@@ -359,10 +371,14 @@ form{
     footer h2{
       font-size: 1.5rem;
     }
+
+
     .side{  
         margin-left: 3.7rem;
         margin-bottom: 3rem;
     }
+    
+    
 
     .number i{
       margin-top: 1rem;
