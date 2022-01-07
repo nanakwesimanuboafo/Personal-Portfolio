@@ -6,6 +6,7 @@
 
 header{
   background: -webkit-linear-gradient(127deg, rgb(99, 64, 240), rgb(240, 35, 195));
+  max-height: 80vh;
 }
 
 .navbar{
@@ -88,7 +89,8 @@ main{
 
 
 .right img{
-    max-height: 70vh;
+  max-width: 70vh;
+
 }
 
 
@@ -102,7 +104,7 @@ main{
 
 #skills h2{
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: 'Ruda', sans-serif;
     color: #6665ee;
     
@@ -235,7 +237,7 @@ footer{
 
 footer h2{
     text-align: center;
-    font-size: 3rem; 
+    font-size: 2rem; 
 }
 
 .flex{
@@ -251,6 +253,9 @@ footer h2{
     max-height: 2rem;
 }
 
+.textarea{
+  border-radius: 5px;
+}
 
 
 form{
@@ -266,6 +271,7 @@ form{
     padding: 0.5rem 1rem;
     
 }
+
 
 .side i{
     font-size: 2rem;
@@ -343,7 +349,7 @@ form{
     }
 
     #skills h2{
-      font-size: 1rem;
+      font-size: 1.5rem;
     }
 
     .flex{
@@ -351,7 +357,7 @@ form{
     }
 
     footer h2{
-      font-size: 1rem;
+      font-size: 1.5rem;
     }
     .side{  
         margin-left: 3.7rem;
