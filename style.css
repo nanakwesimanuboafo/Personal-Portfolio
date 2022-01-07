@@ -5,7 +5,7 @@
 }
 
 header{
-  background: -webkit-linear-gradient(127deg, rgb(99, 64, 240), rgb(240, 35, 195));;
+  background: -webkit-linear-gradient(127deg, rgb(99, 64, 240), rgb(240, 35, 195));
 }
 
 .navbar{
@@ -83,20 +83,7 @@ main{
 }
 
 
-.left button{
-    border-radius: 5px;
-    border: solid white 0.2rem;
-    background-color: transparent;
-    padding: 1rem 2rem;
-    font-size: 1.5rem;
-    color: white;
-    margin-top: 1.5rem;
-}
 
-
-.left button:hover{
-    cursor: pointer;
-}
 
 
 
@@ -121,16 +108,9 @@ main{
     
 }
 
-
-/*::selection{
-  color: white;
-  background: #6665ee;
-}
-*/
 .skill-bars{
   padding: 25px 30px;
   max-width: 900px;
-  
   margin: auto;
   font-family: 'Ruda', sans-serif;
 }
@@ -244,15 +224,58 @@ main{
 }
 
 
+/*contact section*/
+
+
+footer{
+    background:  rgb(99, 64, 240);
+    font-family: 'Ruda', sans-serif;
+    color: white;
+}
+
+footer h2{
+    text-align: center;
+    font-size: 3rem; 
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.textbox{
+    border-radius: 5px;
+    border: solid 2px white;
+    width: 58vh;
+    height: 2rem;
+}
+
+
+
+form{
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+}
+
+.submit-button{
+    background-color: transparent;
+    border: solid 2px white;
+    border-radius: 5px;
+    color: white;
+    padding: 0.5rem 1rem;
+    
+}
+
+.side i{
+    font-size: 2.5rem;
+    color: white;
+}
 
 
 
 
-
-
-
-
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 
 
     .toogle-button{
@@ -307,6 +330,14 @@ main{
     .right img{
         margin-top: 1.5rem;
         height: 50vh;
+    }
+
+    .flex{
+        flex-direction: column;
+    }
+    .side{  
+        margin-left: 3.7rem;
+        margin-bottom: 3rem;
     }
 
 
