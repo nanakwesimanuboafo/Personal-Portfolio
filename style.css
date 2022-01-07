@@ -85,11 +85,9 @@ main{
 
 
 
-
-
-
 .right img{
   max-width: 70vh;
+  margin:auto
 
 }
 
@@ -261,8 +259,6 @@ footer h2{
   padding-top: 1rem;
 }
 
-
-
 form{
     margin-left: 4rem;
     margin-bottom: 3rem;
@@ -296,11 +292,7 @@ form{
       width: 100%;
     }
 
-    .logo{
-
-      margin: 0.5rem 2rem;
-    
-  }
+  
 
     .toogle-button{
         display: flex;
@@ -362,6 +354,10 @@ form{
 
     #skills h2{
       font-size: 1.5rem;
+    }
+
+    #contact{
+      padding-top: 1rem;
     }
 
     .flex{
