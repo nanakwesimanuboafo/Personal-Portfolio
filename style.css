@@ -87,7 +87,8 @@ main{
 
 
 .right img{
-  width: 100%;
+  max-width: 70%;
+  height: auto;
 }
 
 
@@ -375,13 +376,11 @@ form{
         flex-direction: column;
     }
 
-  .textbox{
-    width: 70%;
+  .textbox,.textarea{
+    width: 60%;
   }
 
-  .textarea{
-    width: 70%;
-  }
+  
 
 
 
@@ -390,9 +389,11 @@ form{
         margin-bottom: 3rem;
     }
 
-    .side i{
+    .side i,.info{
       font-size: 16px;
     }
+
+    
  
    
 
