@@ -278,10 +278,6 @@ form{
     color: white;
 }
 
-.number i{
-  margin-top: 2rem;
-  font-size: 1.5rem;
-}
 
 
 
@@ -353,7 +349,8 @@ form{
 
     .right img{
         margin-top: 1.5rem;
-        max-width: 45vh;
+        max-width: 100%;
+        height: auto;
         
     }
 
@@ -375,22 +372,32 @@ form{
         flex-direction: column;
     }
 
-   .textarea{
-     min-width: 5px;
-   }
+  .textbox{
+    width: 100%;
+  }
+
+  .textarea{
+    width: 70%;
+  }
+
+
 
     .side{  
         margin-left: 3.7rem;
         margin-bottom: 3rem;
     }
-    
-    
 
-    .number i{
-      margin-top: 1rem;
-      font-size: 1rem;
+    .side i{
+      font-size: 1.5rem;
     }
+
+    .side span{
+      font-size: 16px;
+    }
+
     
+    
+   
 
 
 
