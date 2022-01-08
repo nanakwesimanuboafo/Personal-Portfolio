@@ -6,7 +6,6 @@
 
 header{
   background: -webkit-linear-gradient(127deg, rgb(99, 64, 240), rgb(240, 35, 195));
-  height: auto;
   width: 100%;
 }
 
@@ -289,7 +288,7 @@ form{
 
     header{
       width: 100%;
-      height: auto;
+      
       
     }
 
