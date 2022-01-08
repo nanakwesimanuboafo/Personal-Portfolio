@@ -87,7 +87,7 @@ main{
 
 
 .right img{
-width: 70vh;
+  width: 100%;
 }
 
 
@@ -239,15 +239,18 @@ footer h2{
 
 .flex{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+.textarea,.textbox{
+  width: 100%;
 }
 
 
 .textbox{
     border-radius: 5px;
     border: solid 2px white;
-    max-width: 58vh;
-    max-height: 2rem;
+    
 }
 
 .textarea{
@@ -373,7 +376,7 @@ form{
     }
 
   .textbox{
-    width: 100%;
+    width: 70%;
   }
 
   .textarea{
@@ -388,15 +391,9 @@ form{
     }
 
     .side i{
-      font-size: 1.5rem;
-    }
-
-    .side span{
       font-size: 16px;
     }
-
-    
-    
+ 
    
 
 
