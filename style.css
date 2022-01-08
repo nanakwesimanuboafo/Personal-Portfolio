@@ -281,6 +281,69 @@ form{
     color: white;
 }
 
+.side i span{
+  margin-top: 20px;
+  font-family: 'Ruda', sans-serif;
+}
+
+
+/*contact page*/
+
+.contact-title h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.contact-container{
+  color: rgb(99, 64, 240);
+  font-family: 'Ruda', sans-serif;
+  text-align: center;
+  
+}
+
+
+.contact-container  .form-area{
+  margin-top: 2rem;
+}
+
+.contact-container .textbox{
+  height: 40px;
+  }
+
+  .contact-container .textarea{
+    height: 100px;
+  }
+
+
+
+
+.contact-container .textarea, .contact-container .textbox {
+  border: 2px solid rgb(99, 64, 240);
+  width: 50%;
+  
+}
+
+.contact-container .submit-button{
+  background-color: rgb(99, 64, 240);
+  border: solid 2px rgb(99, 64, 240);
+  border-radius: 5px;
+  color: white;
+  padding: 0.5rem 1rem;
+  
+}
+
+.contact-container .submit-button:hover{
+  cursor: pointer;
+}
+
+
+.contact-container i{
+  font-size: 2rem;
+  color: rgb(99, 64, 240);
+}
 
 
 
@@ -394,6 +457,11 @@ form{
     }
 
     
+
+   /*contact page*/ 
+.contact-container i{
+  font-size: 16px;
+}
  
    
 
