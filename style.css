@@ -7,6 +7,7 @@
 header{
   background: -webkit-linear-gradient(127deg, rgb(99, 64, 240), rgb(240, 35, 195));
   min-height: 80vh;
+  width: 100%;
 }
 
 .navbar{
@@ -86,10 +87,7 @@ main{
 
 
 .right img{
-  max-width: 70vh;
-  margin:auto
-
-
+width: 70vh;
 }
 
 
@@ -338,11 +336,10 @@ form{
 
 
     .nav-list.active{
-        display: flex;
-        transition: display 2s;
+        display: flex;   
     }
 
-
+    /*landing page*/
     main{
         flex-direction: column;
         width: 100%;
@@ -356,26 +353,31 @@ form{
 
     .right img{
         margin-top: 1.5rem;
-        min-height: 20vh;
-        min-width: 10vh;
+        max-width: 45vh;
+        
     }
 
     #skills h2{
       font-size: 1.5rem;
     }
 
+    /*footer*/
     #contact{
       padding-top: 1rem;
-    }
-
-    .flex{
-        flex-direction: column;
     }
 
     footer h2{
       font-size: 1.5rem;
     }
 
+  
+    .flex{
+        flex-direction: column;
+    }
+
+   .textarea{
+     min-width: 5px;
+   }
 
     .side{  
         margin-left: 3.7rem;
