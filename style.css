@@ -6,7 +6,7 @@
 
 header{
   background: -webkit-linear-gradient(127deg, rgb(99, 64, 240), rgb(240, 35, 195));
-  max-height: 80vh;
+  min-height: 80vh;
 }
 
 .navbar{
@@ -71,7 +71,7 @@ header{
 /*landing page*/
 main{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     padding-top: 3rem;
 }
@@ -86,7 +86,7 @@ main{
 
 
 .right img{
-  max-width: 30vh;
+  max-width: 70vh;
   margin:auto
 
 
@@ -291,8 +291,13 @@ form{
 
     header{
       width: 100%;
+      
     }
 
+
+    .logo{
+      margin: 1rem;
+    }
   
 
     .toogle-button{
@@ -341,16 +346,18 @@ form{
     main{
         flex-direction: column;
         width: 100%;
+      
     }
 
     .left{
-        margin-left: 5rem;
-        font-size: 1rem;
+        margin-left: 3rem;
+        font-size: 1.5rem;
     }
 
     .right img{
         margin-top: 1.5rem;
-        height: 20vh;
+        min-height: 20vh;
+        min-width: 10vh;
     }
 
     #skills h2{
