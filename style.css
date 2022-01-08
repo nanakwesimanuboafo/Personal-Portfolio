@@ -6,7 +6,7 @@
 
 header{
   background: -webkit-linear-gradient(127deg, rgb(99, 64, 240), rgb(240, 35, 195));
-  min-height: 80vh;
+  height: auto;
   width: 100%;
 }
 
